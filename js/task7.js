@@ -1,5 +1,6 @@
 const logins = ['Mango', 'robotGoogles', 'Poly', 'Aj4x1sBozz', 'qwerty123'];
 
+console.log('Задание 7')
 const isLoginValid = function (login) {
   if (login.length >= 4 && login.length <= 16) {
     return true;
@@ -15,6 +16,7 @@ const isLoginUnique = function (allLogins, login) {
   } else {
     return true;
   }
+
 };
 
 const addLogin = function (allLogins, login) {

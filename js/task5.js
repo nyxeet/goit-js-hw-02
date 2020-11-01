@@ -1,7 +1,11 @@
+console.log('Задание 5')
 const checkForSpam = function (message) {
-  message = message.toLowerCase();
-  const isSpamOrSale = message.includes('spam') || message.includes('sale');
+  const lowerCaseMessage = message.toLowerCase();
+
+  const isSpamOrSale = lowerCaseMessage.includes('spam') || lowerCaseMessage.includes('sale');
+
   console.log(message);
+
   return isSpamOrSale;
 };
 

@@ -1,3 +1,4 @@
+console.log('Задание 3')
 const findLongestWord = function (string) {
   let longestWord = '';
   const stringArray = string.split(' ');

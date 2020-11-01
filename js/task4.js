@@ -1,9 +1,9 @@
+console.log('Задание 4')
 const formatString = function (string) {
   if (string.length > 40) {
     const newString = string.split('');
-    const delString = newString.splice(40, string.length - 40, '...');
-    string = newString.join('');
-    return string;
+    newString.splice(40, newString.length - 40, '...');
+    return newString.join('');
   }
   return string;
 };
